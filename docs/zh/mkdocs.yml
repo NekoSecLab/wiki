@@ -1,0 +1,38 @@
+# About the project
+site_name: NekoSecLab Wiki
+site_description: Another wiki provided by NekoSecLab with neko in the heart!
+site_author: NekoSecLab Wiki Team
+site_url: https://wiki.nekoseclab.org
+repo_name: NekoSecLab/wiki
+repo_url: https://github.com/NekoSecLab/wiki
+
+# Appearance
+theme: 
+  name: material
+  language: zh
+  palette:
+    primary: white
+    accent: red
+    scheme: preference
+  icon:
+    repo: fontawesome/brands/github-alt
+  font:
+    text: Noto Sans
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
+
+# Plugins
+plugins:
+  - search
+
+# Extensions
+
+
+# Content Layout
+nav:
+  - Start:
+    - index.md
